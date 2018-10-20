@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour {
 
-    public void GotoMainScene()
+    public void GotoGameScene()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("TestSceneKaz");
     }
 
-    public void GotoPlayerSelectcene()
+    public void GotoPlayerSelectScene()
     {
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("TestPlayerSelectKaz");
     }
 }

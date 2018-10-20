@@ -35,3 +35,13 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Assets/_assets.meta
+Assets/_materials/Skybox.mat
+Assets/_scenes/MainGame.unity
+Assets/_scripts/CandyMechanics.cs
+Assets/_scripts/MovementController.cs
+Assets/_scripts/playerStats.cs
+Assets/_materials/Skybox.mat
+Assets/_scenes/MainGame.unity
+Assets/_scripts/CandyMechanics.cs
+Assets/_scripts/MovementController.cs
+Assets/_scripts/playerStats.cs

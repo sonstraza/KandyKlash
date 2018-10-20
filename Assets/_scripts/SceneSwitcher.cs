@@ -7,7 +7,7 @@ public class SceneSwitcher : MonoBehaviour {
 
     public void GotoGameScene()
     {
-        SceneManager.LoadScene("TestSceneKaz");
+        SceneManager.LoadScene("MainGame");
     }
 
     public void GotoPlayerSelectScene()

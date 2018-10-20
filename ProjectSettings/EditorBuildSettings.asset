@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/_scenes/MainGame.unity
+    guid: 95d394d7ca5a0274aa51dd2dff1fdf4d
+  - enabled: 1
     path: Assets/_scenes/_testScenes/_engineers/TestMenuKaz.unity
     guid: d8712f09827292d41a4c6d2ff1a33a5a
   - enabled: 1

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Time;
 public class CandyMechanics : MonoBehaviour
 {
     public GameObject Player;
@@ -28,11 +27,9 @@ public class CandyMechanics : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-        
-        spawnTimer -= Time.deltaTime;
-
     {
-        if (clock.timeLeft <= 0)
+        spawnTimer -= 1f;
+        if (spawnTimer <= 0)
             Destroy(this.gameObject);
     }
 

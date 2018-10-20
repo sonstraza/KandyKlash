@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour {
 
+    playerStats statRef;
     public CharacterController controller;
-    public float movementSpeed = 10;
+    float movementSpeed;
 
     // Use this for initialization
     void Start()
     {
+        movementSpeed = 10f;
         controller = this.GetComponent<CharacterController>();
     }
 

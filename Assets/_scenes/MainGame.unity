@@ -8062,15 +8062,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 118addc1c073f4940a78d899f324dea5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 118addc1c073f4940a78d899f324dea5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 118addc1c073f4940a78d899f324dea5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 118addc1c073f4940a78d899f324dea5, type: 3}
       propertyPath: m_RootOrder

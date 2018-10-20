@@ -24,5 +24,13 @@ public class MovementController : MonoBehaviour {
         {
             transform.Translate(Vector3.back * Time.deltaTime * movementSpeed);
         }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector3.left * Time.deltaTime * movementSpeed);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * movementSpeed);
+        }
     }
 }

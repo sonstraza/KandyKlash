@@ -3,26 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 public class CandyMechanics : MonoBehaviour
 {
-    public GameObject Player;
+    playerStats playerStatScript;
+    public GameObject playerObject;
     //public Clock clock;
     public GameObject candyToSpawn;
     public float spawnTimer = 5f;
-
-    void Spawn()
-    {
-        Instantiate(candyToSpawn);
-        //Clock clock =
-        //if (Clock.timeLeft == 0){
-        //return;
-        //}
-        //long spawn = Random.Range (0, spawnPoints.Length);
-    }
-
-
+    
     // Use this for initialization
     void Start()
     {
-
+        playerObject = this.GetComponent<GameObject>();
+        playerStatScript = this.GetComponent<playerStats>();
     }
 
     // Update is called once per frame
@@ -32,13 +23,17 @@ public class CandyMechanics : MonoBehaviour
         if (spawnTimer <= 0)
             Spawn();
     }
-
+    void Spawn()
+    {
+        Instantiate(candyToSpawn);
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             //implement a candy count to the player
-            //other.candyCount++;
+
+            playerStatScript.candyAmount++;
             this.gameObject.SetActive(false);
             Destroy(this.gameObject);
         }

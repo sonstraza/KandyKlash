@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class bagAudio : MonoBehaviour {
 
-   
     public AudioSource medHitSource;
     public AudioSource bigHitSource;
+    public AudioSource bagMissSource;
 
 	// Use this for initialization
 	void Start () {
-       // medHitSource.clip medHit; 
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Space))
+        //Change for when bag is < 50% full
+        if (Input.GetKeyDown(KeyCode.O))
             medHitSource.Play();
 
-        if (Input.GetMouseButtonDown(0))
+        //Change for when bag is > 50% full
+        if (Input.GetKeyDown(KeyCode.I))
             bigHitSource.Play();
+
+        //Change for when the player doesn't hit anything
+        if (Input.GetKeyDown(KeyCode.P))
+            bagMissSource.Play();
 	}
 }

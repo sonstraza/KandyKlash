@@ -16,21 +16,34 @@ public class MovementController : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
+        // By default: not moving any direction
+        Vector3 inputDirection = new Vector3(0, 0, 0);
+
+        // Add inputs to direction
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * movementSpeed);
+            inputDirection += Vector3.forward; 
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(Vector3.back * Time.deltaTime * movementSpeed);
+            inputDirection += Vector3.back;
+
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector3.left * Time.deltaTime * movementSpeed);
+            inputDirection += Vector3.left;
+
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector3.right * Time.deltaTime * movementSpeed);
+            inputDirection += Vector3.right;
+
         }
+
+        // Take unit vector of movement direction
+        inputDirection.Normalize();
+
+        // Move by inputDirection
+        transform.Translate(inputDirection * Time.deltaTime * movementSpeed);
     }
 }

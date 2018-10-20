@@ -139,7 +139,7 @@ RectTransform:
   m_GameObject: {fileID: 293995167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9626188, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 370839159}
   m_RootOrder: 1
@@ -189,7 +189,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 530016264}
-        m_MethodName: GotoPlayerSelectScene
+        m_MethodName: GotoGameScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -470,7 +470,7 @@ RectTransform:
   m_GameObject: {fileID: 715626503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9626231, y: 0.99999994, z: 0.99999994}
+  m_LocalScale: {x: 3, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 370839159}
   m_RootOrder: 2

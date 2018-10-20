@@ -44,6 +44,6 @@ public class MovementController : MonoBehaviour {
         inputDirection.Normalize();
 
         // Move by inputDirection
-        controller.Move(inputDirection * Time.deltaTime * movementSpeed);
+        controller.SimpleMove(inputDirection * movementSpeed);
     }
 }

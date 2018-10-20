@@ -6,7 +6,7 @@ public class MovementController : MonoBehaviour {
 
     playerStats statRef;
     public CharacterController controller;
-    public float movementSpeed;
+    float movementSpeed;
 
     // Use this for initialization
     void Start()

@@ -567,18 +567,7 @@ Transform:
   m_Father: {fileID: 776531307}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &105838642 stripped
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
---- !u!1 &102581503
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
   m_PrefabInternal: {fileID: 36912421}
@@ -603,7 +592,6 @@ GameObject:
 --- !u!64 &136057646
 MeshCollider:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 136057642}
@@ -615,30 +603,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 5c38bb8ede30a074b8be957e244c2b94, type: 3}
-=======
-  m_PrefabParentObject: {fileID: 4727715305247184, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 102581503}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.7, y: 0, z: -5.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 5b0be18... spawn prefab
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1 &212053604
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,27 +631,7 @@ Transform:
   - {fileID: 449682429}
   - {fileID: 325522722}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 8
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 6
-=======
-  m_RootOrder: 7
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 7
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 7
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 6
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &223705447
 Prefab:
@@ -861,7 +805,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: fd23321dcb6cc834ab1bdfbf802bb712, type: 3}
-<<<<<<< HEAD
 --- !u!1 &266522482 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: 5c38bb8ede30a074b8be957e244c2b94, type: 3}
@@ -881,23 +824,6 @@ MeshCollider:
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 5c38bb8ede30a074b8be957e244c2b94, type: 3}
 --- !u!1001 &272509771
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1001 &285365070
-=======
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
---- !u!1001 &272509771
->>>>>>> parent of 935ca22... LD
-=======
---- !u!1001 &285365070
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1383,27 +1309,7 @@ Transform:
   - {fileID: 1798091775}
   - {fileID: 560489247}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 10
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 8
-=======
-  m_RootOrder: 9
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 9
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 9
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 8
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &321364441
 Prefab:
@@ -2068,60 +1974,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
-<<<<<<< HEAD
-=======
---- !u!1 &430422425
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1593987251237096, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 430422427}
-  - component: {fileID: 430422426}
-  m_Layer: 0
-  m_Name: Spawn (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &430422426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114981989146566780, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 430422425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 832458a250aa9ee48a13c95e0d825ab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteCandyList:
-  - {fileID: 1161293264605926, guid: 147a16b8b9b4ba046b66fff431e1cbcb, type: 2}
-  - {fileID: 1206953554229844, guid: 4420468cf4f2a5a499aab5fa2a4f710f, type: 2}
-  - {fileID: 1799488074471624, guid: 5bc2b749a6927e54a848b9cd7b361625, type: 2}
-  - {fileID: 1039542559893812, guid: 9de2962b1a0302c4f979ff8d8d7983f9, type: 2}
-  - {fileID: 1735973076854530, guid: fc14b7486894c0944817c450bc4f8e73, type: 2}
-  - {fileID: 1604652471673674, guid: af485c32cf68d084bb69028be3ea498e, type: 2}
-  spawnTimer: 5
---- !u!4 &430422427
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4666350698337892, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 430422425}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.8, y: 0, z: 11.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
 --- !u!1001 &437127804
 Prefab:
   m_ObjectHideFlags: 0
@@ -2343,27 +2195,7 @@ Transform:
   - {fileID: 1474091525}
   - {fileID: 1603214977}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 7
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 5
-=======
-  m_RootOrder: 6
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 6
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 6
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 5
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &476164820
 Prefab:
@@ -2453,12 +2285,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 9af18c480a8650546bc2934c5dbe4465, type: 3}
-<<<<<<< HEAD
 --- !u!1001 &492185171
-=======
-<<<<<<< HEAD
---- !u!1001 &537757830
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2605,7 +2432,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
-<<<<<<< HEAD
 --- !u!1 &520150348 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 8265ac870f8ac3a44a595509980d4b6a, type: 3}
@@ -2624,10 +2450,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: 8265ac870f8ac3a44a595509980d4b6a, type: 3}
-=======
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &537757830
 Prefab:
   m_ObjectHideFlags: 0
@@ -3337,37 +3159,8 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 9af18c480a8650546bc2934c5dbe4465, type: 3}
-<<<<<<< HEAD
 --- !u!1001 &659006411
 Prefab:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
---- !u!1 &630396024
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1265521599261242, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 630396026}
-  - component: {fileID: 630396025}
-  m_Layer: 0
-  m_Name: Spawn (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &630396025
-MonoBehaviour:
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -3447,7 +3240,6 @@ GameObject:
 --- !u!64 &659118242
 MeshCollider:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 659118238}
@@ -3459,30 +3251,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
-=======
-  m_PrefabParentObject: {fileID: 4705264549843208, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 630396024}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.43, y: 0, z: -3.45}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 5b0be18... spawn prefab
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &662033157
 Prefab:
   m_ObjectHideFlags: 0
@@ -3696,7 +3464,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
@@ -3862,8 +3629,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd23321dcb6cc834ab1bdfbf802bb712, type: 3}
       propertyPath: m_RootOrder
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd23321dcb6cc834ab1bdfbf802bb712, type: 3}
@@ -4002,27 +3767,7 @@ Transform:
   m_Children:
   - {fileID: 698456922}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 13
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 11
-=======
-  m_RootOrder: 12
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 12
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 12
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 11
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &697863811
 MonoBehaviour:
@@ -4141,7 +3886,6 @@ Transform:
   m_Father: {fileID: 697863810}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 54.985004, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &720580545 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
@@ -4178,67 +3922,77 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 8265ac870f8ac3a44a595509980d4b6a, type: 3}
-=======
-<<<<<<< HEAD
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &752813856
-=======
---- !u!1001 &758798256
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 888751595}
+    m_TransformParent: {fileID: 1011078892}
     m_Modifications:
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.60909384
+      value: 38.35515
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0010936396
+      value: -10.5060215
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4121622
+      value: -5.0107045
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5000008
+      value: -0.40736103
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.49999925
+      value: 0.24132304
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.49999925
+      value: -0.11253088
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5000008
+      value: 0.8735886
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 26
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8380445
+      value: 10.000035
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.2165573
+      value: 10.000001
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
       propertyPath: m_LocalScale.z
-      value: 9.190228
+      value: 20.000069
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 42.939003
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
+      propertyPath: m_Name
+      value: STopInTheNameOfTheLaw_YouHaveCommittedCrimesAgainstSkyrimAndHerPeople
+        (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -41.103
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -31.456001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
+  m_ParentPrefab: {fileID: 100100000, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
   m_IsPrefabParent: 0
-<<<<<<< HEAD
 --- !u!4 &752813857 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
@@ -4369,8 +4123,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
   m_IsPrefabParent: 0
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
 --- !u!4 &758798257 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 62181a3b871c0134dbdb8714577247dc, type: 3}
@@ -4568,27 +4320,7 @@ Transform:
   - {fileID: 1100656349}
   - {fileID: 99756647}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 11
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 9
-=======
-  m_RootOrder: 10
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 10
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 10
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 9
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &786145833
 Prefab:
@@ -4822,34 +4554,17 @@ MeshCollider:
 --- !u!64 &788604882
 MeshCollider:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 788604878}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-=======
-  m_PrefabParentObject: {fileID: 4511257554682172, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 838111857}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.4, y: 0, z: -11.82}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
-<<<<<<< HEAD
 --- !u!1 &799168215 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100008, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
@@ -4868,19 +4583,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 5b0be18... spawn prefab
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &846232067
 Prefab:
   m_ObjectHideFlags: 0
@@ -5200,27 +4902,7 @@ Transform:
   - {fileID: 537757831}
   - {fileID: 75579016}
   m_Father: {fileID: 1595328014}
-<<<<<<< HEAD
   m_RootOrder: 1
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 5
-=======
-  m_RootOrder: 2
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 2
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 2
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 5
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944213307
 GameObject:
@@ -5371,27 +5053,7 @@ Transform:
   - {fileID: 1028340719}
   - {fileID: 1634878412}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 12
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 10
-=======
-  m_RootOrder: 11
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 11
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 11
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 10
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &985469663
 Prefab:
@@ -6150,7 +5812,6 @@ Transform:
   m_Father: {fileID: 776531307}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1102391925
 GameObject:
   m_ObjectHideFlags: 0
@@ -6184,8 +5845,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
 --- !u!1 &1115290604 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 9c43c2723b8891e40aaca578c5e7d876, type: 3}
@@ -7111,27 +6770,7 @@ Transform:
   m_LocalScale: {x: 9.023002, y: 2.1762252, z: 18.376614}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 4
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 2
-=======
-  m_RootOrder: 3
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 3
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 3
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 2
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &1239104698
 Prefab:
@@ -7467,27 +7106,7 @@ Transform:
   - {fileID: 1177572987}
   - {fileID: 1210355084}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 15
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 13
-=======
-  m_RootOrder: 14
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 14
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 14
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 13
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1307681355
 Prefab:
@@ -7678,7 +7297,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1323822649}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &1327798814 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100008, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
@@ -7697,18 +7315,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1001 &1377517326
-=======
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &1330739114
 Prefab:
   m_ObjectHideFlags: 0
@@ -8267,117 +7873,6 @@ MeshCollider:
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
 --- !u!1001 &1403105113
-=======
---- !u!1001 &1377517326
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-<<<<<<< HEAD
-    m_TransformParent: {fileID: 2053528292}
-    m_Modifications:
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.438316
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.1280935
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.444982
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.2113091
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7848855
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.36599812
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.4531539
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 50.000015
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 50.000015
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-=======
-    m_TransformParent: {fileID: 1832550363}
-    m_Modifications:
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -19.342419
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5987017
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.8054748
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.422595
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.009503946
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.004431762
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.906258
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -28.798002
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ef41d292a71dcb245825226debd3c217, type: 3}
-  m_IsPrefabParent: 0
---- !u!1001 &1403105113
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8430,7 +7925,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cfb128d29140f6c468116c294363dd79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
       value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9408,18 +8902,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: fd23321dcb6cc834ab1bdfbf802bb712, type: 3}
-<<<<<<< HEAD
 --- !u!1 &1555335349 stripped
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
---- !u!1 &1562513932
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
   m_PrefabInternal: {fileID: 659006411}
@@ -9444,7 +8927,6 @@ GameObject:
 --- !u!64 &1583779420
 MeshCollider:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1583779416}
@@ -9456,30 +8938,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 8265ac870f8ac3a44a595509980d4b6a, type: 3}
-=======
-  m_PrefabParentObject: {fileID: 4516565376131512, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 1562513932}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.97, y: 0, z: -4.95}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 5b0be18... spawn prefab
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &1593576037
 Prefab:
   m_ObjectHideFlags: 0
@@ -9594,46 +9052,9 @@ Transform:
   m_LocalScale: {x: 2.1762261, y: 2.1762252, z: 2.1762252}
   m_Children:
   - {fileID: 1323822650}
-<<<<<<< HEAD
   - {fileID: 938358661}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
-  - {fileID: 1945042966}
-  - {fileID: 2130413283}
-  - {fileID: 391756317}
-  - {fileID: 2027349664}
-  - {fileID: 938358661}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-<<<<<<< HEAD
-=======
-  - {fileID: 391756317}
-  - {fileID: 938358661}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
->>>>>>> parent of 935ca22... LD
-=======
-  - {fileID: 391756317}
-  - {fileID: 938358661}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
->>>>>>> parent of 935ca22... LD
-=======
-  - {fileID: 391756317}
-  - {fileID: 938358661}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &1603172749
 Prefab:
@@ -9894,60 +9315,7 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: bded3837152d6b8428d2b0516b219c1c, type: 3}
   m_PrefabInternal: {fileID: 289149034}
-<<<<<<< HEAD
 --- !u!1 &1618035963
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
---- !u!1001 &1621326715
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4901161832344694, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e07462c02fbf5e7448c6ad4616edfcbf, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1622142212
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -9976,7 +9344,6 @@ Transform:
   m_Father: {fileID: 86251370}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!108 &1618035965
 Light:
   m_ObjectHideFlags: 0
@@ -10013,19 +9380,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 5b0be18... spawn prefab
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &1634878411
 Prefab:
   m_ObjectHideFlags: 0
@@ -10755,27 +10109,7 @@ Transform:
   - {fileID: 1186228475}
   - {fileID: 1513584854}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 6
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 4
-=======
-  m_RootOrder: 5
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 5
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 5
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 4
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!1001 &1798091774
 Prefab:
@@ -10935,27 +10269,7 @@ Transform:
   - {fileID: 254824644}
   - {fileID: 437127805}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 3
-=======
-  m_RootOrder: 4
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 4
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 4
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 3
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1859457839
 Prefab:
@@ -11170,12 +10484,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c43c2723b8891e40aaca578c5e7d876, type: 3}
   m_IsPrefabParent: 0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &1865965994
 Prefab:
   m_ObjectHideFlags: 0
@@ -11415,12 +10723,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
-<<<<<<< HEAD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &1887135098
 Prefab:
   m_ObjectHideFlags: 0
@@ -11888,61 +11190,11 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-<<<<<<< HEAD
-=======
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 832458a250aa9ee48a13c95e0d825ab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteCandyList:
-  - {fileID: 1161293264605926, guid: 147a16b8b9b4ba046b66fff431e1cbcb, type: 2}
-  - {fileID: 1206953554229844, guid: 4420468cf4f2a5a499aab5fa2a4f710f, type: 2}
-  - {fileID: 1799488074471624, guid: 5bc2b749a6927e54a848b9cd7b361625, type: 2}
-  - {fileID: 1039542559893812, guid: 9de2962b1a0302c4f979ff8d8d7983f9, type: 2}
-  - {fileID: 1735973076854530, guid: fc14b7486894c0944817c450bc4f8e73, type: 2}
-  - {fileID: 1604652471673674, guid: af485c32cf68d084bb69028be3ea498e, type: 2}
-  spawnTimer: 5
---- !u!4 &1973734327
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4909361392525682, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 1973734325}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12, y: 0, z: -13.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-<<<<<<< HEAD
   m_Mesh: {fileID: 4300004, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
-=======
-  m_Mesh: {fileID: 4300000, guid: f51a1f9dbf378b544bd10477cf12e158, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 5b0be18... spawn prefab
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &2004506176
 Prefab:
   m_ObjectHideFlags: 0
@@ -12143,129 +11395,7 @@ Transform:
   - {fileID: 1403105114}
   - {fileID: 86251370}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 14
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 12
-=======
-  m_RootOrder: 13
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 13
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 13
->>>>>>> parent of 935ca22... LD
-=======
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2069755055
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1281140892564476, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2069755057}
-  - component: {fileID: 2069755056}
-  m_Layer: 0
-  m_Name: Spawn (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2069755056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114713909399860900, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 2069755055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 832458a250aa9ee48a13c95e0d825ab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteCandyList:
-  - {fileID: 1161293264605926, guid: 147a16b8b9b4ba046b66fff431e1cbcb, type: 2}
-  - {fileID: 1206953554229844, guid: 4420468cf4f2a5a499aab5fa2a4f710f, type: 2}
-  - {fileID: 1799488074471624, guid: 5bc2b749a6927e54a848b9cd7b361625, type: 2}
-  - {fileID: 1039542559893812, guid: 9de2962b1a0302c4f979ff8d8d7983f9, type: 2}
-  - {fileID: 1735973076854530, guid: fc14b7486894c0944817c450bc4f8e73, type: 2}
-  - {fileID: 1604652471673674, guid: af485c32cf68d084bb69028be3ea498e, type: 2}
-  spawnTimer: 5
---- !u!4 &2069755057
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4162716103124616, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 2069755055}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2085697119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1262461588221708, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2085697121}
-  - component: {fileID: 2085697120}
-  m_Layer: 0
-  m_Name: Spawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2085697120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114916261081209532, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 2085697119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 832458a250aa9ee48a13c95e0d825ab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteCandyList:
-  - {fileID: 1161293264605926, guid: 147a16b8b9b4ba046b66fff431e1cbcb, type: 2}
-  - {fileID: 1206953554229844, guid: 4420468cf4f2a5a499aab5fa2a4f710f, type: 2}
-  - {fileID: 1799488074471624, guid: 5bc2b749a6927e54a848b9cd7b361625, type: 2}
-  - {fileID: 1039542559893812, guid: 9de2962b1a0302c4f979ff8d8d7983f9, type: 2}
-  - {fileID: 1735973076854530, guid: fc14b7486894c0944817c450bc4f8e73, type: 2}
-  - {fileID: 1604652471673674, guid: af485c32cf68d084bb69028be3ea498e, type: 2}
-  spawnTimer: 5
---- !u!4 &2085697121
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4174204664058188, guid: e07462c02fbf5e7448c6ad4616edfcbf,
-    type: 2}
-  m_PrefabInternal: {fileID: 1621326715}
-  m_GameObject: {fileID: 2085697119}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.07, y: 0, z: -0.25000006}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946154588}
-  m_RootOrder: 0
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2089808476
 Prefab:
@@ -12441,15 +11571,7 @@ MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 2110263267}
-=======
-  m_GameObject: {fileID: 2130413282}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-=======
-  m_GameObject: {fileID: 2089808481}
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -12466,7 +11588,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 801cb83506049f44fafd1b8cd4736f65, type: 3}
   m_PrefabInternal: {fileID: 36912421}
-<<<<<<< HEAD
 --- !u!1 &2120917783 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 8265ac870f8ac3a44a595509980d4b6a, type: 3}
@@ -12485,17 +11606,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: 8265ac870f8ac3a44a595509980d4b6a, type: 3}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of 935ca22... LD
-=======
->>>>>>> parent of d08eba6... Merge branch 'master' of https://github.com/sonstraza/KandyKlash
->>>>>>> 85e502cd84eb59c036a797931d8d2ca79df8d372
 --- !u!1001 &2134780898
 Prefab:
   m_ObjectHideFlags: 0

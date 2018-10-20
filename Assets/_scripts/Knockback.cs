@@ -21,7 +21,7 @@ public class Knockback : MonoBehaviour {
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "MyGameObjectName")
+        if (collision.gameObject.name == "Player2")
         {
             KnockbackMethod();
         }

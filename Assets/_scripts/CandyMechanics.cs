@@ -4,7 +4,8 @@ using UnityEngine;
 public class CandyMechanics : MonoBehaviour
 {
     playerStats playerStatScript;
-    public GameObject playerObject;
+    //public GameObject spawnObject;
+    //public GameObject playerObject;
     public GameObject[] spriteCandyList;
 
     //public Clock clock;
@@ -17,7 +18,8 @@ public class CandyMechanics : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        playerObject = this.GetComponent<GameObject>();
+        //spawnObject = this.GetComponent<GameObject>();
+        //playerObject = this.GetComponent<GameObject>();
         playerStatScript = this.GetComponent<playerStats>();
 
         candySpawned = false;
@@ -31,13 +33,15 @@ public class CandyMechanics : MonoBehaviour
         {
             candySpawned = true;
             //candyToSpawn = spriteCandyList[Random.Range(0, 5)];
-            Instantiate(spriteCandyList[Random.Range(0, 5)]);
+            //Instantiate(spriteCandyList[Random.Range(0, 5)]);
+            Spawn();
         }
     }
 
     void Spawn()
     {
-        Instantiate(candyToSpawn);
+        print(this.transform);
+        Instantiate(spriteCandyList[Random.Range(0, 5)], this.transform);
     }
 
     void OnTrigger(Collider other)
@@ -48,7 +52,6 @@ public class CandyMechanics : MonoBehaviour
             Debug.Log("Collect candy");
             candySpawned = false;
             spawnTimer = 0;
-            playerStatScript.candyAmount++;
             this.gameObject.SetActive(false);
             Destroy(this.gameObject);
         }

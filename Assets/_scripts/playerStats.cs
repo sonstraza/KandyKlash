@@ -5,8 +5,8 @@ using UnityEngine;
 public class playerStats : MonoBehaviour {
 
     public GameObject player;
-    public float playerSpeed;
-    public float candyAmount;
+    public float playerSpeed = 10f;
+    public float candyAmount = 0;
 
 
 	// Use this for initialization
@@ -18,4 +18,12 @@ public class playerStats : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            candyAmount++;
+        }
+    }
 }

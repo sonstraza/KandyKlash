@@ -28,9 +28,9 @@ public class CandyMechanics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spawnTimer -= 1f;
+        spawnTimer -= Time.deltaTime;
         if (spawnTimer <= 0)
-            Destroy(this.gameObject);
+            Spawn();
     }
 
     void OnTriggerEnter(Collider other)

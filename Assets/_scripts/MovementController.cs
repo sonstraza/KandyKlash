@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour {
 
-    public Rigidbody playerRigidBody;
+    public CharacterController controller;
     public float movementSpeed = 10;
 
     // Use this for initialization
     void Start()
     {
-        playerRigidBody = GetComponent<Rigidbody>();
+        controller = this.GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -44,6 +44,6 @@ public class MovementController : MonoBehaviour {
         inputDirection.Normalize();
 
         // Move by inputDirection
-        transform.Translate(inputDirection * Time.deltaTime * movementSpeed);
+        controller.Move(inputDirection * Time.deltaTime * movementSpeed);
     }
 }

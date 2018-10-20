@@ -11,7 +11,6 @@ public class CandyMechanics : MonoBehaviour
     void Spawn()
     {
         Instantiate(candyToSpawn);
-        
         //Clock clock =
         //if (Clock.timeLeft == 0){
         //return;
@@ -29,7 +28,7 @@ public class CandyMechanics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spawnTimer -= Time.deltaTime;
+        spawnTimer -= 1f;
         if (spawnTimer <= 0)
             Destroy(this.gameObject);
     }

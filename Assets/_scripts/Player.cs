@@ -9,116 +9,43 @@ public class Player : MonoBehaviour {
     float movementSpeedDelta;
     public float attackSpeed = 3f;
     public float speedOfAttack = 3f;
-	public float dashTime = 1.3f;
-	public float dashTimeDelta;
-	public float distance = 5.0f;
 
-	private int scytheDelay = 3;
-	
 
+    public float candyCount;
     public Animator animPlayer;
 
     public Rigidbody rigid;
-    
 
-
-	public bool leftShift;
-
-
-    public bool isAttackedHeavy;
-
-    public bool attacking;
-    public bool attacking_2;
-    public bool attacking_3;
-
-    public bool canAttack;
-    public bool canAttack_2;
-    public bool canAttack_3;
-
-    public bool moving;
-    public bool canMove;
-	public bool dashing;
-
-	public bool canDash;
-
-    public bool inAction;
-    public bool isGrounded;
+    public bool takesDamage;
+    public bool Attacking;
 
     public GameObject player;
-    public GameObject scytheAttacking;
-    public GameObject scytheIdle;
-	public GameObject dashParticle;
+    public GameObject candyBag;
 
 
     void Start()
     {
-		dashParticle.SetActive(false);
-		dashing = false;
-		canDash = true;
-		dashTimeDelta = dashTime;
-		
+        candyCount = 0;
 		rigid = GetComponent<Rigidbody>();
         movementSpeedDelta = movementSpeed;
-        animPlayer.SetBool("isMoving", false);
-        isAttackedHeavy = false;
+        animPlayer.SetFloat("Speed", 0);
+        takesDamage = false;
+        candyBag.transform.localScale = new Vector3(1, 1, 1);
     }
 
     void Update()
     {
-		if(dashTimeDelta == dashTime)
-		{
-			canDash = true;
-		}
-		if(dashing == true)
-		{
-			dashParticle.SetActive(true);
-			canDash = false;
-			dashTimeDelta -= Time.deltaTime;
-			if(dashTimeDelta <= 0)
-			{
-				dashTimeDelta = dashTime;
-				canDash = true;
-				dashing = false;
-				dashParticle.SetActive(false);
-			}		
-		}
+        PlayerController();
 
-        if(canAttack == true)
+        if (candyCount >= 5)
         {
-            canAttack_3 = false;
+            candyBag.transform.localScale = new Vector3(2, 2, 2);
+            movementSpeed = 7;
         }
-
-        if (inAction == true)
+        else
         {
-            canMove = false;
-            moving = false;
-            movementSpeed = 0;
-        }
-
-        if (inAction == false)
-        {
-            canMove = true;		
-            movementSpeed = movementSpeedDelta;
-        }
-
-        if (attacking == true) {
-            scytheAttacking.SetActive(true);
-            scytheIdle.SetActive(false);
-        }
-
-        if(attacking == false)
-        {
-            scytheAttacking.SetActive(false);
-            scytheIdle.SetActive(true);
-        }
-
-        if(attacking_2 == true)
-        {
-            canAttack_2 = false;
-        }
-        if(attacking_3 == true)
-        {
-            canAttack_3 = false;
+            candyBag.transform.localScale = new Vector3(1,1,1);
+            movementSpeed = 10;
         }
 
         Plane playerPlane = new Plane(Vector3.up, transform.position);
@@ -127,91 +54,37 @@ public class Player : MonoBehaviour {
 
         if (attackSpeed == speedOfAttack)
         {
-            canAttack = true;
-            canAttack_2 = false;
+            //canAttack = true;
         }
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (canAttack == true)
-            {
-                animPlayer.SetBool("isAttacking", true);
-                inAction = true;
-                attacking = true;
-                Debug.Log("Attacking");
-
-            }
-        }
-        if(attacking == true)
-        {
             
-            canAttack = false;
+        }
+        if(Attacking == true)
+        {
+            //canAttack = false;
             attackSpeed -= Time.deltaTime;
-            if (Input.GetMouseButtonUp(0))
-            {
-                canAttack_2 = true;
-            }
-            if (Input.GetMouseButtonDown(0))
-            {
-                if(canAttack_2 == true)
-                {
-                    animPlayer.SetBool("isAttacking_2", true);
-                    attackSpeed = speedOfAttack;
-                    inAction = true;            
-                    attacking_2 = true;                                 
-                    canAttack_2 = false;
-                }
-            }
             if (attackSpeed <= 0)
             {
-                animPlayer.SetBool("isAttacking_2", false);
+                animPlayer.SetBool("Attacking", false);
                 attackSpeed = 0;              
-                attacking = false;
-                attacking_2 = false;
-                attacking_3 = false;                            
+                Attacking = false;
+                                         
             }
         }
-
-        if(attacking_2 == true)
+        if (Attacking == false)
         {
-            if (Input.GetMouseButtonUp(0))
-            {
-                canAttack_3 = true;
-            }
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (canAttack_3 == true)
-                {
-                    animPlayer.SetBool("isAttacking_3", true);
-                    attackSpeed = speedOfAttack;
-                    inAction = true;
-                    attacking_3 = true;                   
-                    canAttack_3 = false;
-                }
-            }
-        }
-
-        if (attacking == false)
-        {
-            attacking = false;
-            attacking_2 = false;
-            scytheAttacking.SetActive(false);
-            scytheIdle.SetActive(true);
-            animPlayer.SetBool("isAttacking", false);
-            animPlayer.SetBool("isAttacking_2", false);
-            animPlayer.SetBool("isAttacking_3", false);
-            inAction = false;
+            Attacking = false;
+            animPlayer.SetBool("Attacking", false);
             attackSpeed += Time.deltaTime;
             if (attackSpeed > speedOfAttack)
                 attackSpeed = speedOfAttack;
-            if (attackSpeed == speedOfAttack)
-                canAttack = true;
+            //if (attackSpeed == speedOfAttack)
+                //canAttack = true;
         }
-
-
-
-		if (canMove == true)
-            PlayerController();
+		//if (canMove == true)
+        
     }
 
     void PlayerController()
@@ -222,60 +95,12 @@ public class Player : MonoBehaviour {
         Vector3 movement = new Vector3(moveHorizontal, 0f, moveVertical);
         if (movement != Vector3.zero)
         {
-            moving = true;
-            if(moving == true)
-                animPlayer.SetBool("isMoving", true);
-            
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement.normalized), 0.15f);
         }
-        if (movement == Vector3.zero)
-        {
-            moving = false;
-            if(moving == false)
-                animPlayer.SetBool("isMoving", false);
-        }
         
-        if(moving == true && attacking == true)
-        {
-            moving = false;
-        }
-
         transform.Translate(movement * (movementSpeed * movementSpeedMulti) * Time.deltaTime, Space.World);
-
-		if (Input.GetKeyDown(KeyCode.LeftShift))
-		{
-			if (canDash == true)
-			{
-				Dashing();	
-			}
-		}
+        
     }
-
-	void Dashing()
-	{
-		if (canDash == true)
-		{
-			dashing = true;
-			
-			Debug.Log("Dashing");
-			RaycastHit hit;
-			Vector3 destination = transform.position + transform.forward * distance;
-
-			if (Physics.Linecast(transform.position, destination, out hit))
-			{
-				destination = transform.position + transform.forward * (hit.distance - 1f);
-			}
-
-			if (Physics.Raycast(destination, -Vector3.up, out hit))
-			{
-				destination = hit.point;
-				destination.y = 0.5f;
-				transform.position = destination;
-			}
-			
-		}
-	}
-
     void IsAttackedHeavy() {
         animPlayer.SetBool("isAttackedHeavy", true);
 
@@ -290,43 +115,27 @@ public class Player : MonoBehaviour {
             animPlayer.SetBool("isAttackedHeavy", false);
         }
     }
-
-
-    /*
-    IEnumerator ScytheINidle()
-    {
-        yield return new WaitForSeconds(scytheDelay);
-
-    }
-    */
+    
 
     void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.tag == "floor")
+        
+        if (col.gameObject.tag == "lightAttack")
         {
-            isGrounded = true;
+
         }
-        if (col.gameObject.tag == "heavyBullet")
+        if (col.gameObject.tag == "mediumAttack")
         {
-            isAttackedHeavy = true;
+
+        }
+        if(col.gameObject.tag == "candy")
+        {
+            candyCount++;
+        }
+        if (col.gameObject.tag == "bag")
+        {
+            takesDamage = true;
         }
         
-    }
-    void OnCollisionExit(Collision col)
-    {
-        if(col.gameObject.tag == "floor")
-        {
-            isGrounded = false;
-        }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-
     }
 }

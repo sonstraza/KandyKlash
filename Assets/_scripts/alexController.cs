@@ -13,14 +13,24 @@ public class alexController : MonoBehaviour {
 
     public Transform playerTransform;
 
+    public float speed;
     // Use this for initialization
     void Start () {
         rigid = GetComponent<Rigidbody>();
         playerTransform = GetComponent<GameObject>().transform;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    void FixedUpdate()
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+
+        rigid.AddForce(movement * speed);
+    }
+    // Update is called once per frame
+    void Update () {
 		
 	}
 
@@ -31,7 +41,7 @@ public class alexController : MonoBehaviour {
         {
             inputDirection += transform.forward;
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(inputDirection.normalized), 0.15f);
         }
@@ -39,9 +49,9 @@ public class alexController : MonoBehaviour {
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(inputDirection.normalized), 0.15f);
         }
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.S))
         {
-            inputDirection += transform.forward;
+            inputDirection -= transform.forward;
         }
 
         float moveHorizontal = Input.GetAxisRaw("Horizontal");

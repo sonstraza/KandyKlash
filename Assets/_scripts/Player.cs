@@ -30,7 +30,7 @@ public class Player : MonoBehaviour {
         movementSpeedDelta = movementSpeed;
         animPlayer.SetFloat("Speed", 0);
         takesDamage = false;
-        candyBag.transform.localScale = new Vector3(1, 1, 1);
+        //candyBag.transform.localScale = new Vector3(1, 1, 1);
     }
 
     void Update()
@@ -39,12 +39,12 @@ public class Player : MonoBehaviour {
 
         if (candyCount >= 5)
         {
-            candyBag.transform.localScale = new Vector3(2, 2, 2);
+            //candyBag.transform.localScale = new Vector3(2, 2, 2);
             movementSpeed = 7;
         }
         else
         {
-            candyBag.transform.localScale = new Vector3(1,1,1);
+            //candyBag.transform.localScale = new Vector3(1,1,1);
             movementSpeed = 10;
         }
 
@@ -61,6 +61,7 @@ public class Player : MonoBehaviour {
         {
             
         }
+
         if(Attacking == true)
         {
             //canAttack = false;
@@ -101,6 +102,7 @@ public class Player : MonoBehaviour {
         transform.Translate(movement * (movementSpeed * movementSpeedMulti) * Time.deltaTime, Space.World);
         
     }
+
     void IsAttackedHeavy() {
         animPlayer.SetBool("isAttackedHeavy", true);
 
